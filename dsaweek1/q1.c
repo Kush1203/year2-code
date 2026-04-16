@@ -42,6 +42,8 @@ if (top==-1) //not 0 because in stack top should be -1 for the stack to be empty
 
 int main()
 {
+printf("Name:Kushagra");
+printf("ID: ");
 FILE *fp; //using only 1 pointer instead of 2
 struct Stu s;
 fp=fopen("studentin.dat","r");
