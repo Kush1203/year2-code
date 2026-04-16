@@ -2,7 +2,8 @@
 #include <stdlib.h> //when you use this u can use exit(1) which forces exit from a loop which helps handles errors
 #define MAX 100
 
-struct Stu {
+struct Stu 
+{
 char id[50];
 char name[100];
 char dob[20];
